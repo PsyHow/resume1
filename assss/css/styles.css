@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+
+    background-color: azure;
+
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+*,
+*:after
+*:before {
+    box-sizing: border-box;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 10x 0;
+
+    border: 0;
+    background-color: #e5e5e5;
+}
+
+/* container  */
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*  header */
+
+.header {
+    width: 100%;
+    padding-top: 20px;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+    
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 60px;
+
+    font-family: 'Montez', cursive;
+    
+  
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.social__link {
+    padding-right: 20px;
+    
+    align-items: center;
+
+
+    color: #333;
+}
+
+.social__link:hover {
+    color: grey;
+}
+
+
+.about__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 20px 15px 55px;
+
+    
+}
+
+
+/* PROFILE -------------*/
+
+.profile {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+   
+}
+
+.profile__about {
+    flex: 75%;
+    text-align: right;
+    padding-left: 20px;
+    
+}
+
+.profile__name {
+   flex: 25%;
+   text-align: left;
+   border-right: 1px solid #e5e5e5;
+
+    font-size: 40px;
+}
+
+
+/* SKILLS ------------------------- */
+
+
+.skills {
+    display: flex;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+.skills__head{
+    flex: 25%;
+    font-size: 40px;
+    border-right: 1px solid #e5e5e5;
+    
+}
+
+.skills___web {
+    flex: 25%;
+    border-right: 1px solid #e5e5e5;
+}
+
+.skills___ui {
+    flex: 25%;
+    border-right: 1px solid #e5e5e5;
+}
+
+.skills___project {
+    flex: 25%;
+    
+}
+
+.about__skills {
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+.about__text {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+
+}
+
+
+li {
+    list-style: square;
+    display: list-item;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 3px;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+
+/* technology ----------- */
+
+.tech__header {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.tech {
+    flex: 14%;
+    display: flex;
+}
+
+.tech__type {
+    flex: 64%;
+}
+
+.types {
+    float: left;
+    width: 25%;
+}
+
+.tech {
+    font-size: 40px;
+    border-right: 1px solid #e5e5e5;
+    text-align: left;
+
+}
